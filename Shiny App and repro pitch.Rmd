@@ -1,0 +1,39 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Vyomkesh Jha"
+date: "October 11, 2018"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Diamond Data Predictor :: Analysis Report
+
+A data product using shiny apps embedded within RMarkDown.
+Traverse using PageUp and PageDown.
+
+## Overview of the application
+
+- The properties of diamonds can be recoginized using several parameters.
+- Carat,Price, Sample-size, color and Depth are some of the common parameters.
+- This application enables the user to pick the right parameters for the best Diamond selection.
+
+
+## Application Links
+
+Click the Below Link for the Application.
+https://ultimagic.shinyapps.io/DiamondPred/
+
+Github:
+https://github.com/punkstorm28/Shiny
+## Data Used
+The Diamonds Data Set from ggplot2 package was used which contains information about 53940 diamonds across 10 variables.
+
+```{r, echo=TRUE}
+library("ggplot2")
+head(diamonds)
+```
