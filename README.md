@@ -1,4 +1,5 @@
 # Peer-graded-Assignment-Course-Project-Shiny-Application-and-Reproducible-Pitch
 
-Click the Below Link for the presentation.
 
+Presentation: http://rpubs.com/VyomkeshJ/428069
+Application: https://ultimagic.shinyapps.io/DiamondPred/
